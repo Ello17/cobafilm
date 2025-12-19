@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: #0f1724;
+    color: #e6eef8;
+    min-height: 100vh;
+}
+
+.app{
+    max-width: 1100px;
+    margin: 24px auto;
+    background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+}
+
+.app-header{
+    padding: 16px 20px;
+    background: linear-gradient(90deg,#0b1220,#0e1a2b);
+}
+.app-header h1{font-size:18px}
+
+.player-area{
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 16px;
+    padding: 16px;
+}
+
+.video-panel{display:flex;flex-direction:column;gap:12px}
+#player{width:100%;height:520px;background:#000;max-height:70vh;border-radius:6px}
+
+.video-info{padding:6px 2px}
+.video-info h2{font-size:16px;color:#dbeafe}
+
+.playlist{padding:8px}
+#search{width:100%;padding:8px;border-radius:6px;border:1px solid rgba(255,255,255,0.06);margin-bottom:8px;background:#071226;color:#e6eef8}
+
+#playlist{list-style:none;max-height:60vh;overflow:auto;padding-right:8px}
+#playlist li{display:flex;gap:10px;align-items:center;padding:8px;border-radius:6px;cursor:pointer}
+#playlist li:hover{background:rgba(255,255,255,0.02)}
+#playlist li.active{background:linear-gradient(90deg,rgba(59,130,246,0.12),rgba(59,130,246,0.06));box-shadow:inset 0 0 0 1px rgba(59,130,246,0.06)}
+.thumb{width:96px;height:56px;background:#111;border-radius:4px;flex-shrink:0;object-fit:cover}
+.meta{font-size:13px}
+.meta .title{color:#cfe8ff}
+.meta .desc{color:#9fb6d4;font-size:12px}
+
+/* episodes list inside a series item */
+.episodes{list-style:none;margin-top:8px;padding-left:12px;display:none}
+.episodes .episode-item{padding:6px 8px;border-radius:6px;font-size:13px;color:#bcdff8;cursor:pointer}
+.episodes .episode-item:hover{background:rgba(255,255,255,0.02)}
+.episode-active{background:linear-gradient(90deg,rgba(99,102,241,0.12),rgba(99,102,241,0.06));}
+.episode-badge{font-size:12px;color:#9fb6d4;margin-top:6px}
+
+/* Episode strip under player: horizontal, scrollable */
+.episode-strip{
+    margin-top:12px;
+    padding:10px 6px;
+    display:flex;
+    gap:12px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    -webkit-overflow-scrolling: touch;
+}
+.episode-card{
+    min-width:220px;
+    max-width:260px;
+    background:rgba(255,255,255,0.02);
+    border-radius:8px;
+    padding:8px;
+    flex:0 0 auto;
+    display:flex;
+    gap:8px;
+    align-items:center;
+    cursor:pointer;
+}
+.episode-card .ep-thumb{width:120px;height:68px;object-fit:cover;border-radius:6px;background:#072033}
+.episode-card .ep-meta{font-size:13px}
+.episode-card .ep-title{color:#cfe8ff}
+.episode-card.active{box-shadow:0 4px 18px rgba(2,6,23,0.6);border:1px solid rgba(99,102,241,0.08)}
+
+/* hide native scrollbar in many browsers but keep scroll functionality */
+.episode-strip::-webkit-scrollbar{height:10px}
+.episode-strip::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.06);border-radius:8px}
+
+/* Responsive tweaks for smaller screens */
+@media (max-width:700px){
+    .episode-strip{gap:8px;padding:8px}
+    .episode-card{min-width:180px;max-width:220px}
+    .episode-card .ep-thumb{width:96px;height:56px}
+}
+
+@media (max-width:420px){
+    /* keep horizontal strip but smaller cards for phones */
+    .episode-card{min-width:150px;max-width:180px;padding:6px}
+    .episode-card .ep-thumb{width:80px;height:48px}
+    #player{height:200px}
+}
+
+.app-footer{padding:10px 16px;text-align:center;font-size:12px;color:#9fb6d4;background:linear-gradient(90deg,#07111a,#071726)}
+
+@media (max-width:900px){
+    .player-area{grid-template-columns:1fr}
+    #player{height:260px}
+    #playlist{max-height:220px}
+}

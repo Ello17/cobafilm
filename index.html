@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Video App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="app-header">
+            <h1>Film Player</h1>
+        </header>
+
+        <main class="player-area">
+            <section class="video-panel">
+                <video id="player" controls playsinline poster="">
+                    <!-- source is set from JavaScript -->
+                </video>
+                <div class="video-info">
+                    <h2 id="video-title">Pilih video dari daftar</h2>
+                </div>
+                <!-- Episode strip: muncul ketika sebuah series diklik -->
+                <div id="episode-strip" class="episode-strip" aria-hidden="true"></div>
+            </section>
+
+            <aside class="playlist">
+                <input id="search" type="search" placeholder="Cari video..." />
+                <ul id="playlist"></ul>
+            </aside>
+        </main>
+
+        <footer class="app-footer">&copy; Mini Video App Coba</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
