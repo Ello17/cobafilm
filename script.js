@@ -27,7 +27,7 @@
 			id: 4,
 			title: 'Start Up Never Give Up (2024)',
 			src: 'https://vod3.cf.dmcdn.net/sec2(M-mlfIlVH3Z3YPf85uFLwUqHcgRjq2xRN6ses6-NyRGGGfqrOqgOLFcAsFlU0VXtHOWbGPUf_dfe9kwg3mDdXfuOLuRW0koYfDAhZBJIUYu9dGK4TkKDeB3lmwx50hdaID4yaPBBpFtb8DXQE1rfcKJHjECCIaTNW-D3cNeFVbJvCwT8Ud-yrL1rK6azfnBc)/video/099/874/570478990_mp4_h264_aac_hd_2.m3u8',
-			thumbnail: 'https://th.bing.com/th/id/R.38bcff02308d4fb90131f2e542a0ce73?rik=ik6iFcbcirNIHw&riu=http%3a%2f%2fimg.youtube.com%2fvi%2f_jAqhTpOz_8%2fmaxresdefault.jpg&ehk=00rwPEf5Qwro578PqO1zugmCOgrw3aa%2f2pQn7I68ssY%3d&risl=&pid=ImgRaw&r=0'
+			thumbnail: 'https://cdn.teater.co/imgs/article-start-up-never-give-up-2024-1_890_490.webp'
 		},
 		{
 			id: 5,
