@@ -4,7 +4,7 @@
 		{
 			id: 1,
 			title: 'Sore Istri Dari Masa Depan (2025)',
-			src: 'https://vod3.cf.dmcdn.net/sec2(wEzVL0WdVvKXZzV7jF-u-ppcWDVJqlkR6f4XU-gncznlg0rgQYUatlrydNcuNiTWo-kgaP-9RusuqcNfbrE5i6DKJ5BL9pHtO9sfQKFUZRZ7WwhNgmst3MCM3HI8-xG8hbMA66LA_su2is4P6dFPuBrYgO5D_srrYNrwxQKQKdW9-C8or4TXWQLQM8Da26fx)/video/fmp4/595115066/h264_aac_hd/1/manifest.m3u8',
+			src: 'https://vod3.cf.dmcdn.net/sec2(gSy_WE21y6FKHzbuxj3t41i_r6gw6kl69tpBo2ngDaV7xCxRD7HqFpas6FENJ3oM3FHUfbf0_oD41RGT7KeyvYnfUef5pmY11pJfFyD1T-5EmYWx6a1y_cpbXBWeRGoNNXmHmzhQOSCKY5wQ9lCUb5PtVb_5GJN2xyddVWMVVmjfu31LvVGeBfg5N_q0vJvT)/video/fmp4/595115066/h264_aac_hd/1/manifest.m3u8',
 			thumbnail: 'https://cdn.teater.co/imgs/review-sore-istri-dari-masa-depan-2025_890_490.webp'
 		},
 		{
