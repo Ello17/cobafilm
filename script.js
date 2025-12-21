@@ -4,7 +4,7 @@
 		{
 			id: 1,
 			title: 'Sore Istri Dari Masa Depan (2025)',
-			src: 'https://vod3.cf.dmcdn.net/sec2(87FIrGMTJcFkEaYZShi7JJ5AAEf7olEoMLM0mVhjfh1vy888V1IwhxXZU0ZAnjBQ4oO0imk2fRY2so1V29OBiur7zq9LaRCFbWsMl7xvxx8nVe3NVUvUq7ivcW9bINKvLx7qLygd8BWnrMUdJZrdD7nfgJwvntPKlNEqZPtynmDK7VNo58sNN3FI9xCgxK-F)/video/fmp4/595115066/h264_aac_hd/1/manifest.m3u8',
+			src: 'https://vod3.cf.dmcdn.net/sec2(wEzVL0WdVvKXZzV7jF-u-ppcWDVJqlkR6f4XU-gncznlg0rgQYUatlrydNcuNiTWo-kgaP-9RusuqcNfbrE5i6DKJ5BL9pHtO9sfQKFUZRZ7WwhNgmst3MCM3HI8-xG8hbMA66LA_su2is4P6dFPuBrYgO5D_srrYNrwxQKQKdW9-C8or4TXWQLQM8Da26fx)/video/fmp4/595115066/h264_aac_hd/1/manifest.m3u8',
 			thumbnail: 'https://cdn.teater.co/imgs/review-sore-istri-dari-masa-depan-2025_890_490.webp'
 		},
 		{
@@ -32,7 +32,7 @@
 		{
 			id: 5,
 			title: 'Uang Panai 2 (2024)',
-			src: 'https://vod3.cf.dmcdn.net/sec2(rkv-WEs6tTbqpgea0h7lJ4BTgRcnj_8PiZ1pI2oBANren-gAqtLEdMaxvi0KiCejlZbPIxvJVVgXlsCw68fzY6rTRYY-Pv3hkBdHi6ZZ90cqT-c5ST2yG3YNf4UeFcp3nkXfWcoKBbxNJcF3KL0_O4xGmvwYvZ2wEvuWCBi1ntJrgF-poIXldoSSqoXrjs8e)/video/055/297/567792550_mp4_h264_aac_hd_2.m3u8',
+			src: 'https://vod3.cf.dmcdn.net/sec2(SpO9y6BduHvTVzved5WgDvGYDqay6YDeCqbYGAD1781QhRT9dLVR2HUH7IT0Z68oOqPfIhP15EmULLluV0rmzHaVUOKYZuxZOPqtn59dK9C0RgJFKyNcgSUVZvqau_uZvkRz5YY3QbowWW3D9PAPR6xQrZFvzKaXUawu_KQFyLD6qUnAsMMwr5Mvq_TPerFp)/video/055/297/567792550_mp4_h264_aac_hd_2.m3u8',
 			thumbnail: 'https://i.ytimg.com/vi/wfR2Fi20at8/maxresdefault.jpg'
 		}
 	];
